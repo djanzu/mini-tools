@@ -2,7 +2,8 @@
 
 ## install docker
 - ``curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/install-docker.sh | sh`` でdocker, docker-composeのインストール
-- dockerコマンドはsudoでやるのでグループの追加などはしません
+- ~~ dockerコマンドはsudoでやるのでグループの追加などはしません ~~
+- 実行しているユーザーをdockerグループに追加するようにしました
 
 ## make swapfile
 - 一旦sudoしてちょ…
