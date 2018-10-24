@@ -12,6 +12,7 @@ cd /
 mv /home /home_old
 mkdir /home
 chmod 777 /home
-mount -t efs fs-badad813:/ /home
+mount -t efs $1:/ /home
 mount
+echo "$1 :/ /home efs defaults,_netdev 0 0" >> /etc/fstab
 echo "done."
