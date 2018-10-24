@@ -18,5 +18,5 @@ curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/makeswap.
 - これもrootで…
 ```
 sudo su
-EFS=fs-xxxxxxxx; curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/ezefs.sh | sh
+export EFS=fs-xxxxxxxx; curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/ezefs.sh | sh
 ```
