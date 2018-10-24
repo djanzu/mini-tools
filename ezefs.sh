@@ -16,6 +16,6 @@ mkdir /home
 chmod 777 /home
 mount -t efs $EFS:/ /home
 mount
-echo "$EFS :/ /home efs defaults,_netdev 0 0" >> /etc/fstab
+echo "$EFS:/ /home efs defaults,_netdev 0 0" >> /etc/fstab
 echo "done."
 
