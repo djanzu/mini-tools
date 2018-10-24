@@ -13,3 +13,10 @@
 sudo su
 curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/makeswap.sh | sh
 ```
+
+## easy efs
+- これもrootで…
+```
+sudo su
+curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/ezefs.sh | sh
+```
