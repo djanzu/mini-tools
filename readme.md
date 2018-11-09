@@ -15,6 +15,7 @@ curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/makeswap.
 ```
 
 ## easy efs
+- /homeをEFSにしちゃいます。旧/homeは/home_bakに残ります。
 - これもrootで…
 ```
 sudo su
