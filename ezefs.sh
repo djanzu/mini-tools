@@ -15,6 +15,7 @@ mv /home /home_old
 mkdir /home
 chmod 777 /home
 mount -t efs $EFS:/ /home
+cp -r -p /home_old/* /home
 mount
 echo "$EFS:/ /home efs defaults,_netdev 0 0" >> /etc/fstab
 echo "done."
