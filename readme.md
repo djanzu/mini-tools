@@ -1,8 +1,7 @@
 # how to use
 
 ## install docker
-- ``curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/install-docker.sh | sh`` でdocker, docker-composeのインストール
-- ~~ dockerコマンドはsudoでやるのでグループの追加などはしません ~~
+- ``curl https://raw.githubusercontent.com/djanzu/mini-tools/master/install-docker.sh | sh`` でdocker, docker-composeのインストール
 - 実行しているユーザーをdockerグループに追加するようにしました
 
 ## make swapfile
@@ -11,7 +10,7 @@
   - swapfileのサイズは1G固定です（ごめん
 ```
 sudo su
-curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/makeswap.sh | sh
+curl https://raw.githubusercontent.com/djanzu/mini-tools/master/makeswap.sh | sh
 ```
 
 ## easy efs
@@ -20,5 +19,5 @@ curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/makeswap.
 - これもrootで…
 ```
 sudo su
-export EFS=fs-xxxxxxxx; curl https://raw.githubusercontent.com/anzu-so-happy/mini-tools/master/ezefs.sh | sh
+export EFS=fs-xxxxxxxx; curl https://raw.githubusercontent.com/djanzu/mini-tools/master/ezefs.sh | sh
 ```
