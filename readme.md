@@ -5,7 +5,7 @@
 - 実行しているユーザーをdockerグループに追加するようにしました
 
 ## make swapfile
-- 一旦sudoしてちょ…
+- 一旦sudoしてね❤
 - 制限事項
   - swapfileのサイズは1G固定です（ごめん
 ```
@@ -20,4 +20,10 @@ curl https://raw.githubusercontent.com/djanzu/mini-tools/master/makeswap.sh | sh
 ```
 sudo su
 export EFS=fs-xxxxxxxx; curl https://raw.githubusercontent.com/djanzu/mini-tools/master/ezefs.sh | sh
+```
+
+## completion
+- git completionとbash completionをインストールします。
+```
+curl https://raw.githubusercontent.com/djanzu/mini-tools/master/completion.sh | sh
 ```
