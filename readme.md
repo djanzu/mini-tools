@@ -1,7 +1,12 @@
 # how to use
 
 ## install docker
-- ``curl https://raw.githubusercontent.com/djanzu/mini-tools/master/install-docker.sh | sh`` でdocker, docker-composeのインストール
+- docker, docker-composeのインストール
+
+```
+curl https://raw.githubusercontent.com/djanzu/mini-tools/master/install-docker.sh | sh
+``` 
+
 - 実行しているユーザーをdockerグループに追加するようにしました
 
 ## make swapfile
